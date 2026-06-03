@@ -23,7 +23,7 @@ https://github.com/user-attachments/assets/60f35681-554e-49d7-a943-5b7aa4dc28f8
 - 多種 bar 樣式：`rounded`、`sharp`、`glow`、`gradient`。
 - 多種配色方案：`rainbow`、`fire`、`ocean`、`neon`、`sunset`、`matrix`、`custom`。
 - 可設定 `fftSize`、`barCount`、`minFrequency`、`maxFrequency` 與動畫時間。
-- 分離分析層與 UI 層，方便自行客製。 [web:221][web:226]
+- 分離分析層與 UI 層，方便自行客製。
 
 ---
 
