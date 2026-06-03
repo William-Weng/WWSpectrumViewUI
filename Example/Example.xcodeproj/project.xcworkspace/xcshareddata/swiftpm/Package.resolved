@@ -1,0 +1,15 @@
+{
+  "originHash" : "435b6de1842ebee35a5dc39db9ab903fc18a01c8acc31e17e0dde6592e8281ee",
+  "pins" : [
+    {
+      "identity" : "wwnormalizeaudioplayer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWNormalizeAudioPlayer",
+      "state" : {
+        "revision" : "3e96fb5d7ef57a999f68429a9cae19080d23e7bb",
+        "version" : "1.5.0"
+      }
+    }
+  ],
+  "version" : 3
+}
