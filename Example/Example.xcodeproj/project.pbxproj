@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		815C87E32FCFFC1D00232F75 /* WWNormalizeAudioPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = 815C87E22FCFFC1D00232F75 /* WWNormalizeAudioPlayer */; };
 		815C87E62FCFFC2B00232F75 /* WWSpectrumViewUI in Frameworks */ = {isa = PBXBuildFile; productRef = 815C87E52FCFFC2B00232F75 /* WWSpectrumViewUI */; };
+		81B56D8B2FD00CD000DF7C05 /* WWSpectrumViewUI in Frameworks */ = {isa = PBXBuildFile; productRef = 81B56D8A2FD00CD000DF7C05 /* WWSpectrumViewUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B56D8B2FD00CD000DF7C05 /* WWSpectrumViewUI in Frameworks */,
 				815C87E62FCFFC2B00232F75 /* WWSpectrumViewUI in Frameworks */,
 				815C87E32FCFFC1D00232F75 /* WWNormalizeAudioPlayer in Frameworks */,
 			);
@@ -87,6 +89,7 @@
 			packageProductDependencies = (
 				815C87E22FCFFC1D00232F75 /* WWNormalizeAudioPlayer */,
 				815C87E52FCFFC2B00232F75 /* WWSpectrumViewUI */,
+				81B56D8A2FD00CD000DF7C05 /* WWSpectrumViewUI */,
 			);
 			productName = Example;
 			productReference = 817EE1FE2EB1FA050036B57C /* Example.app */;
@@ -118,7 +121,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				815C87E12FCFFC1D00232F75 /* XCRemoteSwiftPackageReference "WWNormalizeAudioPlayer" */,
-				815C87E42FCFFC2B00232F75 /* XCLocalSwiftPackageReference "../../@WWSpectrumViewUI" */,
+				81B56D892FD00CD000DF7C05 /* XCRemoteSwiftPackageReference "WWSpectrumViewUI" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 817EE1FF2EB1FA050036B57C /* Products */;
@@ -361,13 +364,6 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		815C87E42FCFFC2B00232F75 /* XCLocalSwiftPackageReference "../../@WWSpectrumViewUI" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../../@WWSpectrumViewUI";
-		};
-/* End XCLocalSwiftPackageReference section */
-
 /* Begin XCRemoteSwiftPackageReference section */
 		815C87E12FCFFC1D00232F75 /* XCRemoteSwiftPackageReference "WWNormalizeAudioPlayer" */ = {
 			isa = XCRemoteSwiftPackageReference;
@@ -375,6 +371,14 @@
 			requirement = {
 				kind = upToNextMinorVersion;
 				minimumVersion = 1.5.0;
+			};
+		};
+		81B56D892FD00CD000DF7C05 /* XCRemoteSwiftPackageReference "WWSpectrumViewUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/William-Weng/WWSpectrumViewUI";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -387,6 +391,11 @@
 		};
 		815C87E52FCFFC2B00232F75 /* WWSpectrumViewUI */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = WWSpectrumViewUI;
+		};
+		81B56D8A2FD00CD000DF7C05 /* WWSpectrumViewUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81B56D892FD00CD000DF7C05 /* XCRemoteSwiftPackageReference "WWSpectrumViewUI" */;
 			productName = WWSpectrumViewUI;
 		};
 /* End XCSwiftPackageProductDependency section */

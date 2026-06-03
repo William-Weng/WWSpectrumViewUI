@@ -11,6 +11,8 @@
 
 [English](./README.en.md) | [繁體中文](./README.md)
 
+https://github.com/user-attachments/assets/60f35681-554e-49d7-a943-5b7aa4dc28f8
+
 ---
 
 ## ✨ Features

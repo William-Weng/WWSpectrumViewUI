@@ -1,5 +1,5 @@
 {
-  "originHash" : "435b6de1842ebee35a5dc39db9ab903fc18a01c8acc31e17e0dde6592e8281ee",
+  "originHash" : "799ce765d8d38866594baf00be56c4d809ffae46449f9f9672d900e60fa35021",
   "pins" : [
     {
       "identity" : "wwnormalizeaudioplayer",
@@ -8,6 +8,15 @@
       "state" : {
         "revision" : "3e96fb5d7ef57a999f68429a9cae19080d23e7bb",
         "version" : "1.5.0"
+      }
+    },
+    {
+      "identity" : "wwspectrumviewui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWSpectrumViewUI",
+      "state" : {
+        "revision" : "dafd06a877a45e513d0213472171d67cda4e699c",
+        "version" : "1.0.0"
       }
     }
   ],
