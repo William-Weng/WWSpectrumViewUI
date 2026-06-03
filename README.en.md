@@ -1,4 +1,4 @@
-# WWSpectrumViewUI
+# [WWSpectrumViewUI](https://swiftpackageindex.com/William-Weng)
 
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-524520?logo=swift)
 [![Swift-5.7](https://img.shields.io/badge/Swift-5.7-orange.svg?style=flat)](https://developer.apple.com/swift/)
@@ -17,7 +17,6 @@ https://github.com/user-attachments/assets/60f35681-554e-49d7-a943-5b7aa4dc28f8
 
 ## ✨ Features
 
-- Real-time FFT-based spectrum analysis.
 - Raw frequency-band output with `SpectrumBandRaw`.
 - SwiftUI spectrum visualization view.
 - Multiple bar styles: `rounded`, `sharp`, `glow`, and `gradient`.
@@ -216,7 +215,6 @@ A SwiftUI view that reads raw bands from `ViewModel` and renders the spectrum ba
 
 ## ⚠️ Notes
 
-- `fftSize` must be a power of two, such as `512`, `1024`, or `2048`.
 - `viewModel.rawBands` should be updated on the main thread.
 - The UI uses `GeometryReader` to adapt to different sizes.
 - `bandAmplitude(_:)` converts raw band values into a normalized display amplitude.
